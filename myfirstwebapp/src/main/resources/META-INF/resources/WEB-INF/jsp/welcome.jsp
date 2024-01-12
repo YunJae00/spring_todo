@@ -1,10 +1,7 @@
-<html>
-	<head>
-		<title> Welcome page</title>
-	</head>
-	<body>
-		<div>welcome to welcome page</div>
-		<div>your name : ${name}</div>
-		<div><a href="list-todos">Manage</a> your todos</div>
-	</body>
-</html>
+<%@ include file="common/header.jspf" %>
+		<%@ include file="common/navigation.jspf" %>
+		<div class="container">
+			<h1>welcome ${name}</h1>
+			<a href="list-todos">Manage</a> your todos
+		</div>
+<%@ include file="common/footer.jspf" %>
